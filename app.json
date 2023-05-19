@@ -1,0 +1,9 @@
+{
+  "name": "remevenmex-web",
+  "description": "landing page",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  }
+}
