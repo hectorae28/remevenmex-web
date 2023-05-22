@@ -2,63 +2,58 @@
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
-import FeatureCard from 'components/feature-card.js';
-import Smart from 'assets/feature/smart.svg';
-import Winner from 'assets/feature/winner.svg';
-import Cloud from 'assets/feature/cloud.svg';
-import Setting from 'assets/feature/setting.svg';
-import Design from 'assets/feature/design.svg';
-import Chat from 'assets/feature/chat.svg';
-
+import FeatureCard from 'components/feature-card';
+import Colombia from 'assets/feature/colombia.png';
+import Peru from 'assets/feature/peru.png';
+import Mexico from 'assets/feature/mexico.png';
+import Spain from 'assets/feature/spain.png'
+import Chile from 'assets/feature/chile.png'
+import US from 'assets/feature/united-states.png'
 const data = [
   {
-    id: 1,
-    imgSrc: Smart,
-    altText: 'Smart',
-    title: 'Smart Features',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: Colombia,
+    altText: 'Flag',
+    title: 'Colombia',
+    textList:
+      ['Banco Bogota','BanColombia'],
   },
   {
-    id: 2,
-    imgSrc: Winner,
-    altText: 'Performance',
-    title: 'Fast Performance',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: Peru,
+    altText: 'Flag',
+    title: 'Peru',
+    phone:'+51917649301',
+    whatsapp:'51930799244',
+    textList:
+      ['Yape','Plin','Bcp','BBVA'],
   },
   {
-    id: 3,
-    imgSrc: Cloud,
-    altText: 'Content',
-    title: 'Unlimited Content',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: Mexico,
+    altText: 'Flag',
+    title: 'Mexico',
+    phone:'+529841575086',
+    whatsapp:'529841575086',
+    textList:
+      ['Oxxo','PayPal','Bancomer','Bancoppel','HSBC','Mercado Pago QR'],
   },
   {
-    id: 4,
-    imgSrc: Setting,
-    altText: 'Customization',
-    title: 'Unlimited Customization',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: Spain,
+    altText: 'Flag',
+    title: 'España',
+    subTitle:'Muy Pronto'
   },
   {
-    id: 5,
-    imgSrc: Design,
-    altText: 'Productivity',
-    title: 'Boost Productivity',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: Chile,
+    altText: 'Flag',
+    title: 'Chile',
+    subTitle:'Muy Pronto'
   },
   {
-    id: 6,
-    imgSrc: Chat,
-    altText: 'Support',
-    title: 'Customer Support',
-    text:
-      'Get your blood tests delivered at let home collect sample from the victory of the managements.',
+    imgSrc: US,
+    altText: 'Flag',
+    title: 'Estados Unidos',
+    subTitle:'Muy Pronto'
   },
+  
 ];
 
 export default function BankInfo() {
@@ -66,18 +61,20 @@ export default function BankInfo() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          title="Formas de pago"
         />
 
         <Grid sx={styles.grid}>
-          {data.map((item) => (
+          {data.map((item,index) => (
             <FeatureCard
-              key={item.id}
+              key={index}
               src={item.imgSrc}
               alt={item.title}
               title={item.title}
-              text={item.text}
+              textList={item.textList}
+              subTitle={item.subTitle}
+              phone={item.phone}
+              whatsapp={item.whatsapp}
             />
           ))}
         </Grid>

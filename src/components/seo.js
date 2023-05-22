@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 export default function SEO({
-  description = "Estamos orgullosos de ser una casa de cambio de confianza y eficiente que se dedica a facilitar tus transacciones en el ámbito de las divisas.",
+  description = "En Remevenmex somos una casa de cambio que ofrece servicios de cambio de divisas seguros y confiables. Contamos con un equipo de expertos en finanzas que te brindarán un servicio personalizado y de calidad. Te ofrecemos los mejores tipos de cambio y una amplia variedad de monedas para que puedas realizar tus transacciones de manera fácil y rápida. ¡Visítanos y comprueba por qué somos la mejor opción en cambio de divisas!",
   author = "REMEVENMEX",
   meta,
-  title = "REMEVENMEX",
+  title = "RemevenMex - Casa de Cambio Internacional | Mejores Tasas y Servicio Confiable",
 }) {
   const metaData = [
     {

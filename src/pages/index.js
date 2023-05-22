@@ -7,7 +7,6 @@ import Layout from "components/layout";
 import {
   Banner,
   ProductsAndService,
-  SucursalesSlider,
   AboutUs,
   Package,
   BankInfo
@@ -18,11 +17,10 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="RemeVenMex" />
+          <SEO title="RemevenMex - Casa de Cambio Internacional | Mejores Tasas y Servicio Confiable" />
           <Banner />
           <ProductsAndService />
           <BankInfo />
-          <SucursalesSlider />
           <AboutUs />
           <Package />
         </Layout>
