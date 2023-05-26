@@ -7,7 +7,6 @@ jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
-    container: node:16-alpine
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
