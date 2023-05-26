@@ -32,7 +32,7 @@ const data = [
   },
   {
     id: 4,
-    path: "mailto:tzirw@example.com",
+    path: "mailto:Remevenmx@gmail.com",
     icon: <FaRegEnvelope size={50} />,
     title: "mail",
   },

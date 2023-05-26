@@ -37,7 +37,7 @@ export default [
         label: "Whatsapp",
       },
       {
-        path: "mailto:tzirw@example.com",
+        path: "mailto:Remevenmx@gmail.com",
         label: "Email",
       },
     ],
