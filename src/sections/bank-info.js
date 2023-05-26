@@ -61,7 +61,7 @@ const data = [
 
 export default function BankInfo() {
   return (
-    <section sx={{ variant: "section.feature" }}>
+    <section id='bank-info' sx={{ variant: "section.feature" }}>
       <Container>
         <SectionHeader title="Formas de pago" />
 

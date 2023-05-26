@@ -8,8 +8,8 @@ export default [
     label: "Productos y Servicios",
   },
   {
-    path: "testimonial",
-    label: "Ubicaciones",
+    path: "bank-info",
+    label: "Formas de Pago",
   },
   {
     path: "aboutus",
