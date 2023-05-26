@@ -20,7 +20,7 @@ export default function Logo({ color, ...rest }) {
           color ? { varian: "links.logoDark" } : { variant: "links.logoWhite" }
         }
       >
-        REMEVENMEX
+        REMEVENMX
       </Heading>
     </Link>
   );

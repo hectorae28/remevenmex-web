@@ -7,12 +7,12 @@ const packages = [
   {
     name: "Misión",
     description:
-      "Nuestra misión en REMEVENMEX es empoderar a nuestros clientes al proporcionarles soluciones rápidas, seguras y confiables en sus necesidades de cambio de divisas. Nos comprometemos a ofrecer un servicio excepcional y a desarrollar relaciones duraderas con nuestros clientes, basadas en la integridad, la transparencia y la satisfacción mutua. Nuestra meta es eliminar las barreras financieras y contribuir al crecimiento económico global, a través de la innovación constante y la adaptación a las cambiantes necesidades del mercado.",
+      "Nuestra misión en REMEVENMX es empoderar a nuestros clientes al proporcionarles soluciones rápidas, seguras y confiables en sus necesidades de cambio de divisas. Nos comprometemos a ofrecer un servicio excepcional y a desarrollar relaciones duraderas con nuestros clientes, basadas en la integridad, la transparencia y la satisfacción mutua. Nuestra meta es eliminar las barreras financieras y contribuir al crecimiento económico global, a través de la innovación constante y la adaptación a las cambiantes necesidades del mercado.",
   },
   {
     name: "Visión",
     description:
-      "Nuestra visión en REMEVENMEX es convertirnos en líderes en el mercado cambiario, siendo reconocidos por nuestra ética, calidad y compromiso en el servicio al cliente. Aspiramos a ser el referente en la industria de las casas de cambio, expandiendo nuestra presencia a nivel mundial y marcando la diferencia en la vida de nuestros clientes. Nos esforzamos por mantenernos a la vanguardia de la innovación tecnológica y las tendencias del mercado, ofreciendo soluciones personalizadas y eficientes, que permitan a nuestros clientes alcanzar sus metas económicas en un mundo globalizado e interconectado.",
+      "Nuestra visión en REMEVENMX es convertirnos en líderes en el mercado cambiario, siendo reconocidos por nuestra ética, calidad y compromiso en el servicio al cliente. Aspiramos a ser el referente en la industria de las casas de cambio, expandiendo nuestra presencia a nivel mundial y marcando la diferencia en la vida de nuestros clientes. Nos esforzamos por mantenernos a la vanguardia de la innovación tecnológica y las tendencias del mercado, ofreciendo soluciones personalizadas y eficientes, que permitan a nuestros clientes alcanzar sus metas económicas en un mundo globalizado e interconectado.",
   },
 ];
 export default function Package() {

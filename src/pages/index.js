@@ -9,7 +9,7 @@ import {
   ProductsAndService,
   AboutUs,
   Package,
-  BankInfo
+  BankInfo,
 } from "sections";
 
 export default function IndexPage() {
@@ -17,7 +17,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="RemevenMex - Casa de Cambio Internacional | Mejores Tasas y Servicio Confiable" />
+          <SEO title="Remevenmx - Casa de Cambio Internacional | Mejores Tasas y Servicio Confiable" />
           <Banner />
           <ProductsAndService />
           <BankInfo />

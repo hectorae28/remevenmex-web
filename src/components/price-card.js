@@ -2,12 +2,7 @@ import { Box, Card, Text, Flex, Heading, Button } from "theme-ui";
 import React from "react";
 import List from "./list";
 
-export default function PriceCard({
-  data: {
-    name,
-    description,
-  },
-}) {
+export default function PriceCard({ data: { name, description } }) {
   return (
     <Card className={"active"} sx={styles.pricingBox}>
       <Box>

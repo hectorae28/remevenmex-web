@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 export default function SEO({
-  description = "En Remevenmex somos una casa de cambio que ofrece servicios de cambio de divisas seguros y confiables. Contamos con un equipo de expertos en finanzas que te brindarán un servicio personalizado y de calidad. Te ofrecemos los mejores tipos de cambio y una amplia variedad de monedas para que puedas realizar tus transacciones de manera fácil y rápida. ¡Visítanos y comprueba por qué somos la mejor opción en cambio de divisas!",
-  author = "REMEVENMEX",
+  description = "Remevenmx, la mejor opción para enviar remesas a Venezuela. Ofrecemos servicios rápidos y seguros de cambio de divisas. Confía en nosotros para enviar dinero a tus seres queridos. ¡Contáctanos hoy mismo!",
+  author = "REMEVENMX",
   meta,
-  title = "RemevenMex - Casa de Cambio Internacional | Mejores Tasas y Servicio Confiable",
+  title = "Remevenmx - Casa de Cambio | Mejores Tasas y Servicio Confiable",
 }) {
   const metaData = [
     {
